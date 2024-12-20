@@ -4,6 +4,9 @@ Library/
 # 忽略 Temp 文件夹  
 Temp/
 
+Assets/Fonts/
+Assets/Images/
+
 # 忽略 Unity 生成的日志文件  
 *.log  
   
