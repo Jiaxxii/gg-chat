@@ -12,11 +12,11 @@
     <ProductVersion>10.0.20506</ProductVersion>
     <SchemaVersion>2.0</SchemaVersion>
     <RootNamespace></RootNamespace>
-    <ProjectGuid>{4f605282-2dc7-63db-e0e8-344810113dcc}</ProjectGuid>
+    <ProjectGuid>{c2404be2-3849-8a83-9212-beb0eee47dbb}</ProjectGuid>
     <ProjectTypeGuids>{E097FAD1-6243-4DAD-9C02-E9B9EFC3FFC1};{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}</ProjectTypeGuids>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
-    <AssemblyName>Assembly-CSharp</AssemblyName>
+    <AssemblyName>Unity.RenderPipeline.Universal.ShaderLibrary</AssemblyName>
     <TargetFrameworkVersion>v4.7.1</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <BaseDirectory>.</BaseDirectory>
@@ -25,7 +25,7 @@
     <DebugSymbols>true</DebugSymbols>
     <DebugType>full</DebugType>
     <Optimize>false</Optimize>
-    <OutputPath>Temp\Bin\Debug\Assembly-CSharp\</OutputPath>
+    <OutputPath>Temp\Bin\Debug\Unity.RenderPipeline.Universal.ShaderLibrary\</OutputPath>
     <DefineConstants>UNITY_2022_3_38;UNITY_2022_3;UNITY_2022;TUANJIE_1_3_2;TUANJIE_1_3;TUANJIE_1;UNITY_5_3_OR_NEWER;UNITY_5_4_OR_NEWER;UNITY_5_5_OR_NEWER;UNITY_5_6_OR_NEWER;UNITY_2017_1_OR_NEWER;UNITY_2017_2_OR_NEWER;UNITY_2017_3_OR_NEWER;UNITY_2017_4_OR_NEWER;UNITY_2018_1_OR_NEWER;UNITY_2018_2_OR_NEWER;UNITY_2018_3_OR_NEWER;UNITY_2018_4_OR_NEWER;UNITY_2019_1_OR_NEWER;UNITY_2019_2_OR_NEWER;UNITY_2019_3_OR_NEWER;UNITY_2019_4_OR_NEWER;UNITY_2020_1_OR_NEWER;UNITY_2020_2_OR_NEWER;UNITY_2020_3_OR_NEWER;UNITY_2021_1_OR_NEWER;UNITY_2021_2_OR_NEWER;UNITY_2021_3_OR_NEWER;UNITY_2022_1_OR_NEWER;UNITY_2022_2_OR_NEWER;UNITY_2022_3_OR_NEWER;TUANJIE_2022_3_OR_NEWER;TUANJIE_1_0_OR_NEWER;TUANJIE_1_1_OR_NEWER;TUANJIE_1_2_OR_NEWER;TUANJIE_1_3_OR_NEWER;UNITY_INCLUDE_TESTS;ENABLE_AR;ENABLE_AUDIO;ENABLE_CACHING;ENABLE_CLOTH;ENABLE_EVENT_QUEUE;ENABLE_MICROPHONE;ENABLE_MULTIPLE_DISPLAYS;ENABLE_PHYSICS;ENABLE_TEXTURE_STREAMING;ENABLE_LZMA;ENABLE_UNITYEVENTS;ENABLE_VR;ENABLE_WEBCAM;ENABLE_UNITYWEBREQUEST;ENABLE_WWW;ENABLE_CLOUD_SERVICES;ENABLE_CLOUD_SERVICES_ADS;ENABLE_CLOUD_SERVICES_USE_WEBREQUEST;ENABLE_CLOUD_SERVICES_CRASH_REPORTING;ENABLE_CLOUD_SERVICES_NATIVE_CRASH_REPORTING;ENABLE_CLOUD_SERVICES_PURCHASING;ENABLE_CLOUD_SERVICES_ANALYTICS;ENABLE_CLOUD_SERVICES_BUILD;ENABLE_EDITOR_GAME_SERVICES;ENABLE_UNITY_GAME_SERVICES_ANALYTICS_SUPPORT;ENABLE_CLOUD_LICENSE;ENABLE_EDITOR_HUB_LICENSE;ENABLE_WEBSOCKET_CLIENT;ENABLE_GENERATE_NATIVE_PLUGINS_FOR_ASSEMBLIES_API;ENABLE_DIRECTOR_AUDIO;ENABLE_DIRECTOR_TEXTURE;ENABLE_MANAGED_JOBS;ENABLE_MANAGED_TRANSFORM_JOBS;ENABLE_MANAGED_ANIMATION_JOBS;ENABLE_MANAGED_AUDIO_JOBS;ENABLE_RUNTIME_PERMISSIONS;ENABLE_ENGINE_CODE_STRIPPING;ENABLE_ONSCREEN_KEYBOARD;ENABLE_MANAGED_UNITYTLS;INCLUDE_DYNAMIC_GI;ENABLE_SCRIPTING_GC_WBARRIERS;PLATFORM_SUPPORTS_MONO;ENABLE_VIDEO;ENABLE_ACCELERATOR_CLIENT_DEBUGGING;ENABLE_NAVIGATION_PACKAGE_DEBUG_VISUALIZATION;ENABLE_NAVIGATION_HEIGHTMESH_RUNTIME_SUPPORT;ENABLE_NAVIGATION_UI_REQUIRES_PACKAGE;PLATFORM_ANDROID;TEXTCORE_1_0_OR_NEWER;UNITY_ANDROID;UNITY_ANDROID_API;ENABLE_EGL;ENABLE_NETWORK;ENABLE_RUNTIME_GI;ENABLE_CRUNCH_TEXTURE_COMPRESSION;UNITY_CAN_SHOW_SPLASH_SCREEN;UNITY_HAS_GOOGLEVR;UNITY_HAS_TANGO;ENABLE_SPATIALTRACKING;ENABLE_ETC_COMPRESSION;PLATFORM_EXTENDS_VULKAN_DEVICE;PLATFORM_HAS_MULTIPLE_SWAPCHAINS;UNITY_ANDROID_SUPPORTS_SHADOWFILES;PLATFORM_UPDATES_TIME_OUTSIDE_OF_PLAYER_LOOP;ENABLE_UNITYADS_RUNTIME;UNITY_UNITYADS_API;ENABLE_MONO;NET_STANDARD_2_0;NET_STANDARD;NET_STANDARD_2_1;NETSTANDARD;NETSTANDARD2_1;ENABLE_PROFILER;DEBUG;TRACE;UNITY_ASSERTIONS;UNITY_EDITOR;UNITY_EDITOR_64;UNITY_EDITOR_WIN;ENABLE_SCRIPTS_ENCRYPTON;ENABLE_UNITY_COLLECTIONS_CHECKS;ENABLE_BURST_AOT;UNITY_TEAM_LICENSE;ENABLE_CUSTOM_RENDER_TEXTURE;ENABLE_DIRECTOR;ENABLE_LOCALIZATION;ENABLE_SPRITES;ENABLE_TERRAIN;ENABLE_TILEMAP;ENABLE_TIMELINE;ENABLE_INPUT_SYSTEM;ENABLE_LEGACY_INPUT_MANAGER;TEXTCORE_FONT_ENGINE_1_5_OR_NEWER;DOTWEEN;CSHARP_7_OR_LATER;CSHARP_7_3_OR_NEWER</DefineConstants>
     <ErrorReport>prompt</ErrorReport>
     <WarningLevel>4</WarningLevel>
@@ -45,84 +45,56 @@
     <Analyzer Include="F:\Unity\TuanJie\2022.3.38t2\Editor\Data\Tools\Unity.SourceGenerators\Unity.Properties.SourceGenerator.dll" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Assets\DOTween\Modules\DOTweenModuleUnityVersion.cs" />
-    <Compile Include="Assets\DOTween\Modules\DOTweenModulePhysics2D.cs" />
-    <Compile Include="Assets\DOTween\Modules\DOTweenModuleUI.cs" />
-    <Compile Include="Assets\DOTween\Modules\DOTweenModuleEPOOutline.cs" />
-    <Compile Include="Assets\Settings\InputSystem\MainPlayerInputCenter.cs" />
-    <Compile Include="Assets\DOTween\Modules\DOTweenModuleAudio.cs" />
-    <Compile Include="Assets\DOTween\Modules\DOTweenModulePhysics.cs" />
-    <Compile Include="Assets\DOTween\Modules\DOTweenModuleSprite.cs" />
-    <Compile Include="Assets\DOTween\Modules\DOTweenModuleUtils.cs" />
-    <None Include="Library\PackageCache\com.unity.modules.subsystems@1.0.0\package.json" />
-    <None Include="Library\PackageCache\com.unity.render-pipelines.universal@14.0.11\package.json" />
-    <None Include="Assets\TextMesh Pro\Shaders\TMPro.cginc" />
-    <None Include="Library\PackageCache\com.unity.modules.jsonserialize@1.0.0\package.json" />
-    <None Include="Library\PackageCache\com.unity.modules.screencapture@1.0.0\package.json" />
-    <None Include="Library\PackageCache\com.unity.modules.cloth@1.0.0\package.json" />
-    <None Include="Assets\TextMesh Pro\Shaders\TMP_SDF-Mobile Overlay.shader" />
-    <None Include="Library\PackageCache\com.unity.modules.unitywebrequesttexture@1.0.0\package.json" />
-    <None Include="Library\PackageCache\com.unity.modules.ai@1.0.0\package.json" />
-    <None Include="Library\PackageCache\com.unity.collections@1.2.4\Unity.Collections.LowLevel.ILSupport\README.txt" />
-    <None Include="Library\PackageCache\com.unity.ugui@1.0.0\package.json" />
-    <None Include="Library\PackageCache\com.unity.2d.tilemap@1.0.0\package.json" />
-    <None Include="Library\PackageCache\com.unity.render-pipelines.universal-config@14.0.10\package.json" />
-    <None Include="Library\PackageCache\com.unity.modules.assetbundle@1.0.0\package.json" />
-    <None Include="Assets\TextMesh Pro\Shaders\TMP_Bitmap.shader" />
-    <None Include="Library\PackageCache\com.unity.modules.imgui@1.0.0\package.json" />
-    <None Include="Library\PackageCache\com.unity.modules.tilemap@1.0.0\package.json" />
-    <None Include="Assets\TextMesh Pro\Shaders\TMPro_Mobile.cginc" />
-    <None Include="Library\PackageCache\com.unity.modules.terrainphysics@1.0.0\package.json" />
-    <None Include="Assets\TextMesh Pro\Shaders\TMP_SDF SSD.shader" />
-    <None Include="Library\PackageCache\com.unity.modules.unitywebrequestassetbundle@1.0.0\package.json" />
-    <None Include="Library\PackageCache\com.unity.render-pipelines.core@14.0.11\ValidationConfig.json" />
-    <None Include="Library\PackageCache\com.unity.render-pipelines.core@14.0.11\package.json" />
-    <None Include="Assets\TextMesh Pro\Shaders\TMP_SDF-Surface-Mobile.shader" />
-    <None Include="Library\PackageCache\com.unity.modules.imageconversion@1.0.0\package.json" />
-    <None Include="Library\PackageCache\com.unity.shadergraph@14.0.11\package.json" />
-    <None Include="Library\PackageCache\com.unity.modules.unityanalytics@1.0.0\package.json" />
-    <None Include="Library\PackageCache\com.unity.modules.video@1.0.0\package.json" />
-    <None Include="Library\PackageCache\com.unity.shadergraph@14.0.11\ValidationConfig.json" />
-    <None Include="Library\PackageCache\com.unity.modules.particlesystem@1.0.0\package.json" />
-    <None Include="Library\PackageCache\com.unity.modules.physics2d@1.0.0\package.json" />
-    <None Include="Assets\TextMesh Pro\Shaders\TMP_SDF-Surface.shader" />
-    <None Include="Library\PackageCache\com.unity.modules.vr@1.0.0\package.json" />
-    <None Include="Assets\TextMesh Pro\Sprites\EmojiOne Attribution.txt" />
-    <None Include="Assets\TextMesh Pro\Shaders\TMP_Bitmap-Custom-Atlas.shader" />
-    <None Include="Assets\TextMesh Pro\Shaders\TMP_SDF.shader" />
-    <None Include="Library\PackageCache\com.unity.modules.wind@1.0.0\package.json" />
-    <None Include="Assets\TextMesh Pro\Shaders\TMP_SDF-Mobile SSD.shader" />
-    <None Include="Assets\TextMesh Pro\Resources\LineBreaking Leading Characters.txt" />
-    <None Include="Assets\TextMesh Pro\Shaders\TMPro_Properties.cginc" />
-    <None Include="Assets\TextMesh Pro\Shaders\TMPro_Surface.cginc" />
-    <None Include="Library\PackageCache\com.unity.modules.audio@1.0.0\package.json" />
-    <None Include="Library\PackageCache\com.unity.modules.physics@1.0.0\package.json" />
-    <None Include="Library\PackageCache\com.unity.render-pipelines.universal@14.0.11\ValidationExceptions.json" />
-    <None Include="Library\PackageCache\com.unity.modules.vehicles@1.0.0\package.json" />
-    <None Include="Library\PackageCache\com.unity.modules.unitywebrequestwww@1.0.0\package.json" />
-    <None Include="Assets\TextMesh Pro\Resources\LineBreaking Following Characters.txt" />
-    <None Include="Library\PackageCache\com.unity.modules.unitywebrequestaudio@1.0.0\package.json" />
-    <None Include="Library\PackageCache\com.unity.feature.2d@2.0.1\package.json" />
-    <None Include="Library\PackageCache\com.unity.modules.xr@1.0.0\package.json" />
-    <None Include="Assets\TextMesh Pro\Shaders\TMP_SDF-Mobile Masking.shader" />
-    <None Include="Library\PackageCache\com.unity.modules.director@1.0.0\package.json" />
-    <None Include="Library\PackageCache\com.unity.modules.terrain@1.0.0\package.json" />
-    <None Include="Library\PackageCache\com.unity.2d.sprite@1.0.0\package.json" />
-    <None Include="Library\PackageCache\com.unity.collections@1.2.4\package.json" />
-    <None Include="Library\PackageCache\com.unity.modules.androidjni@1.0.0\package.json" />
-    <None Include="Assets\TextMesh Pro\Shaders\TMP_SDF Overlay.shader" />
-    <None Include="Assets\TextMesh Pro\Shaders\TMP_Bitmap-Mobile.shader" />
-    <None Include="Assets\TextMesh Pro\Fonts\LiberationSans - OFL.txt" />
-    <None Include="Library\PackageCache\com.unity.modules.animation@1.0.0\package.json" />
-    <None Include="Assets\DOTween\readme.txt" />
-    <None Include="Library\PackageCache\com.unity.collections@1.2.4\ValidationExceptions.json" />
-    <None Include="Assets\TextMesh Pro\Shaders\TMP_SDF-Mobile.shader" />
-    <None Include="Library\PackageCache\com.unity.render-pipelines.universal@14.0.11\ValidationConfig.json" />
-    <None Include="Library\PackageCache\com.unity.modules.unitywebrequest@1.0.0\package.json" />
-    <None Include="Library\PackageCache\com.unity.modules.uielements@1.0.0\package.json" />
-    <None Include="Assets\TextMesh Pro\Sprites\EmojiOne.json" />
-    <None Include="Library\PackageCache\com.unity.modules.ui@1.0.0\package.json" />
-    <None Include="Assets\TextMesh Pro\Shaders\TMP_Sprite.shader" />
+    <Compile Include="Library\PackageCache\com.unity.render-pipelines.universal@14.0.11\ShaderLibrary\Debug\DebugViewEnums.cs" />
+    <Compile Include="Library\PackageCache\com.unity.render-pipelines.universal@14.0.11\ShaderLibrary\Deprecated.cs" />
+    <Compile Include="Library\PackageCache\com.unity.render-pipelines.universal@14.0.11\ShaderLibrary\ShaderTypes.cs" />
+    <None Include="Library\PackageCache\com.unity.render-pipelines.universal@14.0.11\ShaderLibrary\NormalReconstruction.hlsl" />
+    <None Include="Library\PackageCache\com.unity.render-pipelines.universal@14.0.11\ShaderLibrary\DBuffer.hlsl" />
+    <None Include="Library\PackageCache\com.unity.render-pipelines.universal@14.0.11\ShaderLibrary\VisualEffectVertex.hlsl" />
+    <None Include="Library\PackageCache\com.unity.render-pipelines.universal@14.0.11\ShaderLibrary\Shadows.deprecated.hlsl" />
+    <None Include="Library\PackageCache\com.unity.render-pipelines.universal@14.0.11\ShaderLibrary\DOTS.hlsl" />
+    <None Include="Library\PackageCache\com.unity.render-pipelines.universal@14.0.11\ShaderLibrary\UniversalDOTSInstancing.hlsl" />
+    <None Include="Library\PackageCache\com.unity.render-pipelines.universal@14.0.11\ShaderLibrary\Debug\DebuggingFullscreen.hlsl" />
+    <None Include="Library\PackageCache\com.unity.render-pipelines.universal@14.0.11\ShaderLibrary\Unlit.hlsl" />
+    <None Include="Library\PackageCache\com.unity.render-pipelines.universal@14.0.11\ShaderLibrary\DeclareNormalsTexture.hlsl" />
+    <None Include="Library\PackageCache\com.unity.render-pipelines.universal@14.0.11\ShaderLibrary\Input.hlsl" />
+    <None Include="Library\PackageCache\com.unity.render-pipelines.universal@14.0.11\ShaderLibrary\Core.hlsl" />
+    <None Include="Library\PackageCache\com.unity.render-pipelines.universal@14.0.11\ShaderLibrary\SSAO.hlsl" />
+    <None Include="Library\PackageCache\com.unity.render-pipelines.universal@14.0.11\ShaderLibrary\BRDF.hlsl" />
+    <None Include="Library\PackageCache\com.unity.render-pipelines.universal@14.0.11\ShaderLibrary\Debug\DebugViewEnums.cs.hlsl" />
+    <None Include="Library\PackageCache\com.unity.render-pipelines.universal@14.0.11\ShaderLibrary\SurfaceInput.hlsl" />
+    <None Include="Library\PackageCache\com.unity.render-pipelines.universal@14.0.11\ShaderLibrary\Debug\DebuggingCommon.hlsl" />
+    <None Include="Library\PackageCache\com.unity.render-pipelines.universal@14.0.11\ShaderLibrary\UnityInput.hlsl" />
+    <None Include="Library\PackageCache\com.unity.render-pipelines.universal@14.0.11\ShaderLibrary\Lighting.hlsl" />
+    <None Include="Library\PackageCache\com.unity.render-pipelines.universal@14.0.11\ShaderLibrary\UniversalMetaPass.hlsl" />
+    <None Include="Library\PackageCache\com.unity.render-pipelines.universal@14.0.11\ShaderLibrary\ShaderVariablesFunctions.deprecated.hlsl" />
+    <None Include="Library\PackageCache\com.unity.render-pipelines.universal@14.0.11\ShaderLibrary\LightCookie\LightCookieInput.hlsl" />
+    <None Include="Library\PackageCache\com.unity.render-pipelines.universal@14.0.11\ShaderLibrary\ParticlesInstancing.hlsl" />
+    <None Include="Library\PackageCache\com.unity.render-pipelines.universal@14.0.11\ShaderLibrary\SurfaceData.hlsl" />
+    <None Include="Library\PackageCache\com.unity.render-pipelines.universal@14.0.11\ShaderLibrary\Particles.hlsl" />
+    <None Include="Library\PackageCache\com.unity.render-pipelines.universal@14.0.11\ShaderLibrary\LightCookie\LightCookie.hlsl" />
+    <None Include="Library\PackageCache\com.unity.render-pipelines.universal@14.0.11\ShaderLibrary\Deprecated.hlsl" />
+    <None Include="Library\PackageCache\com.unity.render-pipelines.universal@14.0.11\ShaderLibrary\ShaderVariablesFunctions.hlsl" />
+    <None Include="Library\PackageCache\com.unity.render-pipelines.universal@14.0.11\ShaderLibrary\Debug\Debugging3D.hlsl" />
+    <None Include="Library\PackageCache\com.unity.render-pipelines.universal@14.0.11\ShaderLibrary\DeclareOpaqueTexture.hlsl" />
+    <None Include="Library\PackageCache\com.unity.render-pipelines.universal@14.0.11\ShaderLibrary\LightCookie\LightCookieTypes.hlsl" />
+    <None Include="Library\PackageCache\com.unity.render-pipelines.universal@14.0.11\ShaderLibrary\ShaderGraphFunctions.hlsl" />
+    <None Include="Library\PackageCache\com.unity.render-pipelines.universal@14.0.11\ShaderLibrary\GlobalIllumination.hlsl" />
+    <None Include="Library\PackageCache\com.unity.render-pipelines.universal@14.0.11\ShaderLibrary\ShaderTypes.cs.hlsl" />
+    <None Include="Library\PackageCache\com.unity.render-pipelines.universal@14.0.11\ShaderLibrary\Unity.RenderPipelines.Universal.ShaderLibrary.asmdef" />
+    <None Include="Library\PackageCache\com.unity.render-pipelines.universal@14.0.11\ShaderLibrary\UnityGBuffer.hlsl" />
+    <None Include="Library\PackageCache\com.unity.render-pipelines.universal@14.0.11\ShaderLibrary\AmbientOcclusion.hlsl" />
+    <None Include="Library\PackageCache\com.unity.render-pipelines.universal@14.0.11\ShaderLibrary\Clustering.hlsl" />
+    <None Include="Library\PackageCache\com.unity.render-pipelines.universal@14.0.11\ShaderLibrary\Shadows.hlsl" />
+    <None Include="Library\PackageCache\com.unity.render-pipelines.universal@14.0.11\ShaderLibrary\MetaInput.hlsl" />
+    <None Include="Library\PackageCache\com.unity.render-pipelines.universal@14.0.11\ShaderLibrary\RenderingLayers.hlsl" />
+    <None Include="Library\PackageCache\com.unity.render-pipelines.universal@14.0.11\ShaderLibrary\DeclareRenderingLayerTexture.hlsl" />
+    <None Include="Library\PackageCache\com.unity.render-pipelines.universal@14.0.11\ShaderLibrary\UnityTypes.hlsl" />
+    <None Include="Library\PackageCache\com.unity.render-pipelines.universal@14.0.11\ShaderLibrary\DecalInput.hlsl" />
+    <None Include="Library\PackageCache\com.unity.render-pipelines.universal@14.0.11\ShaderLibrary\Debug\Debugging2D.hlsl" />
+    <None Include="Library\PackageCache\com.unity.render-pipelines.universal@14.0.11\ShaderLibrary\RealtimeLights.hlsl" />
+    <None Include="Library\PackageCache\com.unity.render-pipelines.universal@14.0.11\ShaderLibrary\LODCrossFade.hlsl" />
+    <None Include="Library\PackageCache\com.unity.render-pipelines.universal@14.0.11\ShaderLibrary\DeclareDepthTexture.hlsl" />
     <Reference Include="UnityEngine">
       <HintPath>F:\Unity\TuanJie\2022.3.38t2\Editor\Data\Managed\UnityEngine\UnityEngine.dll</HintPath>
     </Reference>
@@ -366,14 +338,53 @@
     <Reference Include="UnityEditor.UnityConnectModule">
       <HintPath>F:\Unity\TuanJie\2022.3.38t2\Editor\Data\Managed\UnityEngine\UnityEditor.UnityConnectModule.dll</HintPath>
     </Reference>
+    <Reference Include="UnityEditor.Graphs">
+      <HintPath>F:\Unity\TuanJie\2022.3.38t2\Editor\Data\Managed\UnityEditor.Graphs.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEditor.Android.Extensions">
+      <HintPath>F:\Unity\TuanJie\2022.3.38t2\Editor\Data\PlaybackEngines\AndroidPlayer\UnityEditor.Android.Extensions.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEditor.WeixinMiniGame.Extensions">
+      <HintPath>F:\Unity\TuanJie\2022.3.38t2\Editor\Data\PlaybackEngines\WeixinMiniGameSupport\UnityEditor.WeixinMiniGame.Extensions.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEditor.iOS.Extensions">
+      <HintPath>F:\Unity\TuanJie\2022.3.38t2\Editor\Data\PlaybackEngines\iOSSupport\UnityEditor.iOS.Extensions.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEditor.WindowsStandalone.Extensions">
+      <HintPath>F:\Unity\TuanJie\2022.3.38t2\Editor\Data\PlaybackEngines\WindowsStandaloneSupport\UnityEditor.WindowsStandalone.Extensions.dll</HintPath>
+    </Reference>
+    <Reference Include="Unity.VisualScripting.YamlDotNet">
+      <HintPath>F:\Unity\TuanJie\_Generation\gg-Chat\Library\PackageCache\com.unity.visualscripting@1.9.4\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll</HintPath>
+    </Reference>
     <Reference Include="Unity.Collections.LowLevel.ILSupport">
       <HintPath>F:\Unity\TuanJie\_Generation\gg-Chat\Library\PackageCache\com.unity.collections@1.2.4\Unity.Collections.LowLevel.ILSupport\Unity.Collections.LowLevel.ILSupport.dll</HintPath>
+    </Reference>
+    <Reference Include="unityplastic">
+      <HintPath>F:\Unity\TuanJie\_Generation\gg-Chat\Library\PackageCache\com.unity.collab-proxy@2.6.0\Lib\Editor\unityplastic.dll</HintPath>
+    </Reference>
+    <Reference Include="Unity.Plastic.Antlr3.Runtime">
+      <HintPath>F:\Unity\TuanJie\_Generation\gg-Chat\Library\PackageCache\com.unity.collab-proxy@2.6.0\Lib\Editor\Unity.Plastic.Antlr3.Runtime.dll</HintPath>
+    </Reference>
+    <Reference Include="Unity.Plastic.Newtonsoft.Json">
+      <HintPath>F:\Unity\TuanJie\_Generation\gg-Chat\Library\PackageCache\com.unity.collab-proxy@2.6.0\Lib\Editor\Unity.Plastic.Newtonsoft.Json.dll</HintPath>
+    </Reference>
+    <Reference Include="log4netPlastic">
+      <HintPath>F:\Unity\TuanJie\_Generation\gg-Chat\Library\PackageCache\com.unity.collab-proxy@2.6.0\Lib\Editor\log4netPlastic.dll</HintPath>
+    </Reference>
+    <Reference Include="Unity.VisualScripting.IonicZip">
+      <HintPath>F:\Unity\TuanJie\_Generation\gg-Chat\Library\PackageCache\com.unity.visualscripting@1.9.4\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll</HintPath>
     </Reference>
     <Reference Include="Unity.VisualScripting.Antlr3.Runtime">
       <HintPath>F:\Unity\TuanJie\_Generation\gg-Chat\Library\PackageCache\com.unity.visualscripting@1.9.4\Runtime\VisualScripting.Flow\Dependencies\NCalc\Unity.VisualScripting.Antlr3.Runtime.dll</HintPath>
     </Reference>
+    <Reference Include="DOTweenEditor">
+      <HintPath>F:\Unity\TuanJie\_Generation\gg-Chat\Assets\DOTween\Editor\DOTweenEditor.dll</HintPath>
+    </Reference>
     <Reference Include="Newtonsoft.Json">
       <HintPath>F:\Unity\TuanJie\_Generation\gg-Chat\Library\PackageCache\com.unity.nuget.newtonsoft-json@3.2.1\Runtime\Newtonsoft.Json.dll</HintPath>
+    </Reference>
+    <Reference Include="Unity.VisualScripting.TextureAssets">
+      <HintPath>F:\Unity\TuanJie\_Generation\gg-Chat\Library\PackageCache\com.unity.visualscripting@1.9.4\Editor\VisualScripting.Core\EditorAssetResources\Unity.VisualScripting.TextureAssets.dll</HintPath>
     </Reference>
     <Reference Include="DOTween">
       <HintPath>F:\Unity\TuanJie\_Generation\gg-Chat\Assets\DOTween\DOTween.dll</HintPath>
@@ -759,189 +770,11 @@
     <Reference Include="System.Xml.Serialization">
       <HintPath>F:\Unity\TuanJie\2022.3.38t2\Editor\Data\NetStandard\compat\2.1.0\shims\netfx\System.Xml.Serialization.dll</HintPath>
     </Reference>
-    <Reference Include="Unity.2D.IK.Runtime">
-      <HintPath>F:\Unity\TuanJie\_Generation\gg-Chat\Library\ScriptAssemblies\Unity.2D.IK.Runtime.dll</HintPath>
-    </Reference>
-    <Reference Include="Unity.Burst.Editor">
-      <HintPath>F:\Unity\TuanJie\_Generation\gg-Chat\Library\ScriptAssemblies\Unity.Burst.Editor.dll</HintPath>
-    </Reference>
-    <Reference Include="Unity.2D.Common.Path.Editor">
-      <HintPath>F:\Unity\TuanJie\_Generation\gg-Chat\Library\ScriptAssemblies\Unity.2D.Common.Path.Editor.dll</HintPath>
-    </Reference>
-    <Reference Include="Unity.2D.PixelPerfect.Editor">
-      <HintPath>F:\Unity\TuanJie\_Generation\gg-Chat\Library\ScriptAssemblies\Unity.2D.PixelPerfect.Editor.dll</HintPath>
-    </Reference>
-    <Reference Include="Unity.Rider.Editor">
-      <HintPath>F:\Unity\TuanJie\_Generation\gg-Chat\Library\ScriptAssemblies\Unity.Rider.Editor.dll</HintPath>
-    </Reference>
-    <Reference Include="Unity.2D.Aseprite.Common">
-      <HintPath>F:\Unity\TuanJie\_Generation\gg-Chat\Library\ScriptAssemblies\Unity.2D.Aseprite.Common.dll</HintPath>
-    </Reference>
-    <Reference Include="Unity.VisualScripting.Flow">
-      <HintPath>F:\Unity\TuanJie\_Generation\gg-Chat\Library\ScriptAssemblies\Unity.VisualScripting.Flow.dll</HintPath>
-    </Reference>
-    <Reference Include="Unity.Mathematics.Editor">
-      <HintPath>F:\Unity\TuanJie\_Generation\gg-Chat\Library\ScriptAssemblies\Unity.Mathematics.Editor.dll</HintPath>
-    </Reference>
-    <Reference Include="Unity.2D.Tilemap.Extras.Editor">
-      <HintPath>F:\Unity\TuanJie\_Generation\gg-Chat\Library\ScriptAssemblies\Unity.2D.Tilemap.Extras.Editor.dll</HintPath>
-    </Reference>
-    <Reference Include="Unity.PlasticSCM.Editor">
-      <HintPath>F:\Unity\TuanJie\_Generation\gg-Chat\Library\ScriptAssemblies\Unity.PlasticSCM.Editor.dll</HintPath>
-    </Reference>
-    <Reference Include="Unity.2D.SpriteShape.Runtime">
-      <HintPath>F:\Unity\TuanJie\_Generation\gg-Chat\Library\ScriptAssemblies\Unity.2D.SpriteShape.Runtime.dll</HintPath>
-    </Reference>
-    <Reference Include="Unity.2D.PixelPerfect">
-      <HintPath>F:\Unity\TuanJie\_Generation\gg-Chat\Library\ScriptAssemblies\Unity.2D.PixelPerfect.dll</HintPath>
-    </Reference>
-    <Reference Include="Unity.TextMeshPro">
-      <HintPath>F:\Unity\TuanJie\_Generation\gg-Chat\Library\ScriptAssemblies\Unity.TextMeshPro.dll</HintPath>
-    </Reference>
-    <Reference Include="Unity.2D.Aseprite.Editor">
-      <HintPath>F:\Unity\TuanJie\_Generation\gg-Chat\Library\ScriptAssemblies\Unity.2D.Aseprite.Editor.dll</HintPath>
-    </Reference>
-    <Reference Include="PsdPlugin">
-      <HintPath>F:\Unity\TuanJie\_Generation\gg-Chat\Library\ScriptAssemblies\PsdPlugin.dll</HintPath>
-    </Reference>
-    <Reference Include="Unity.Burst">
-      <HintPath>F:\Unity\TuanJie\_Generation\gg-Chat\Library\ScriptAssemblies\Unity.Burst.dll</HintPath>
-    </Reference>
-    <Reference Include="UniTask.TextMeshPro">
-      <HintPath>F:\Unity\TuanJie\_Generation\gg-Chat\Library\ScriptAssemblies\UniTask.TextMeshPro.dll</HintPath>
-    </Reference>
-    <Reference Include="Unity.Timeline.Editor">
-      <HintPath>F:\Unity\TuanJie\_Generation\gg-Chat\Library\ScriptAssemblies\Unity.Timeline.Editor.dll</HintPath>
-    </Reference>
-    <Reference Include="Unity.VisualScripting.Shared.Editor">
-      <HintPath>F:\Unity\TuanJie\_Generation\gg-Chat\Library\ScriptAssemblies\Unity.VisualScripting.Shared.Editor.dll</HintPath>
-    </Reference>
-    <Reference Include="UniTask.DOTween">
-      <HintPath>F:\Unity\TuanJie\_Generation\gg-Chat\Library\ScriptAssemblies\UniTask.DOTween.dll</HintPath>
-    </Reference>
-    <Reference Include="UniTask.Addressables">
-      <HintPath>F:\Unity\TuanJie\_Generation\gg-Chat\Library\ScriptAssemblies\UniTask.Addressables.dll</HintPath>
-    </Reference>
-    <Reference Include="Unity.VisualStudio.Editor">
-      <HintPath>F:\Unity\TuanJie\_Generation\gg-Chat\Library\ScriptAssemblies\Unity.VisualStudio.Editor.dll</HintPath>
-    </Reference>
-    <Reference Include="Unity.VisualScripting.Core">
-      <HintPath>F:\Unity\TuanJie\_Generation\gg-Chat\Library\ScriptAssemblies\Unity.VisualScripting.Core.dll</HintPath>
-    </Reference>
-    <Reference Include="Unity.2D.Animation.Runtime">
-      <HintPath>F:\Unity\TuanJie\_Generation\gg-Chat\Library\ScriptAssemblies\Unity.2D.Animation.Runtime.dll</HintPath>
-    </Reference>
-    <Reference Include="Unity.VisualScripting.Core.Editor">
-      <HintPath>F:\Unity\TuanJie\_Generation\gg-Chat\Library\ScriptAssemblies\Unity.VisualScripting.Core.Editor.dll</HintPath>
-    </Reference>
-    <Reference Include="Unity.2D.Tilemap.Extras">
-      <HintPath>F:\Unity\TuanJie\_Generation\gg-Chat\Library\ScriptAssemblies\Unity.2D.Tilemap.Extras.dll</HintPath>
-    </Reference>
-    <Reference Include="UniTask.Linq">
-      <HintPath>F:\Unity\TuanJie\_Generation\gg-Chat\Library\ScriptAssemblies\UniTask.Linq.dll</HintPath>
-    </Reference>
-    <Reference Include="Unity.VisualScripting.Flow.Editor">
-      <HintPath>F:\Unity\TuanJie\_Generation\gg-Chat\Library\ScriptAssemblies\Unity.VisualScripting.Flow.Editor.dll</HintPath>
-    </Reference>
-    <Reference Include="Unity.InternalAPIEngineBridge.001">
-      <HintPath>F:\Unity\TuanJie\_Generation\gg-Chat\Library\ScriptAssemblies\Unity.InternalAPIEngineBridge.001.dll</HintPath>
-    </Reference>
-    <Reference Include="Unity.2D.Common.Runtime">
-      <HintPath>F:\Unity\TuanJie\_Generation\gg-Chat\Library\ScriptAssemblies\Unity.2D.Common.Runtime.dll</HintPath>
-    </Reference>
-    <Reference Include="Unity.Timeline">
-      <HintPath>F:\Unity\TuanJie\_Generation\gg-Chat\Library\ScriptAssemblies\Unity.Timeline.dll</HintPath>
-    </Reference>
-    <Reference Include="Unity.InputSystem">
-      <HintPath>F:\Unity\TuanJie\_Generation\gg-Chat\Library\ScriptAssemblies\Unity.InputSystem.dll</HintPath>
-    </Reference>
-    <Reference Include="Unity.InputSystem.ForUI">
-      <HintPath>F:\Unity\TuanJie\_Generation\gg-Chat\Library\ScriptAssemblies\Unity.InputSystem.ForUI.dll</HintPath>
-    </Reference>
-    <Reference Include="Unity.VisualScripting.SettingsProvider.Editor">
-      <HintPath>F:\Unity\TuanJie\_Generation\gg-Chat\Library\ScriptAssemblies\Unity.VisualScripting.SettingsProvider.Editor.dll</HintPath>
-    </Reference>
-    <Reference Include="Unity.InternalAPIEditorBridge.001">
-      <HintPath>F:\Unity\TuanJie\_Generation\gg-Chat\Library\ScriptAssemblies\Unity.InternalAPIEditorBridge.001.dll</HintPath>
-    </Reference>
-    <Reference Include="Unity.2D.Psdimporter.Editor">
-      <HintPath>F:\Unity\TuanJie\_Generation\gg-Chat\Library\ScriptAssemblies\Unity.2D.Psdimporter.Editor.dll</HintPath>
-    </Reference>
-    <Reference Include="Unity.VisualScripting.State.Editor">
-      <HintPath>F:\Unity\TuanJie\_Generation\gg-Chat\Library\ScriptAssemblies\Unity.VisualScripting.State.Editor.dll</HintPath>
-    </Reference>
-    <Reference Include="Unity.Mathematics">
-      <HintPath>F:\Unity\TuanJie\_Generation\gg-Chat\Library\ScriptAssemblies\Unity.Mathematics.dll</HintPath>
-    </Reference>
-    <Reference Include="Unity.2D.Common.Editor">
-      <HintPath>F:\Unity\TuanJie\_Generation\gg-Chat\Library\ScriptAssemblies\Unity.2D.Common.Editor.dll</HintPath>
-    </Reference>
-    <Reference Include="Unity.TextMeshPro.Editor">
-      <HintPath>F:\Unity\TuanJie\_Generation\gg-Chat\Library\ScriptAssemblies\Unity.TextMeshPro.Editor.dll</HintPath>
-    </Reference>
-    <Reference Include="Unity.Searcher.Editor">
-      <HintPath>F:\Unity\TuanJie\_Generation\gg-Chat\Library\ScriptAssemblies\Unity.Searcher.Editor.dll</HintPath>
-    </Reference>
-    <Reference Include="UniTask">
-      <HintPath>F:\Unity\TuanJie\_Generation\gg-Chat\Library\ScriptAssemblies\UniTask.dll</HintPath>
-    </Reference>
-    <Reference Include="Unity.VisualScripting.State">
-      <HintPath>F:\Unity\TuanJie\_Generation\gg-Chat\Library\ScriptAssemblies\Unity.VisualScripting.State.dll</HintPath>
-    </Reference>
-    <Reference Include="Unity.2D.SpriteShape.Editor">
-      <HintPath>F:\Unity\TuanJie\_Generation\gg-Chat\Library\ScriptAssemblies\Unity.2D.SpriteShape.Editor.dll</HintPath>
-    </Reference>
-    <Reference Include="Unity.2D.Animation.Editor">
-      <HintPath>F:\Unity\TuanJie\_Generation\gg-Chat\Library\ScriptAssemblies\Unity.2D.Animation.Editor.dll</HintPath>
-    </Reference>
-    <Reference Include="Unity.2D.IK.Editor">
-      <HintPath>F:\Unity\TuanJie\_Generation\gg-Chat\Library\ScriptAssemblies\Unity.2D.IK.Editor.dll</HintPath>
-    </Reference>
   </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="Unity.RenderPipelines.Core.Runtime.csproj">
       <Project>{3a5ef3b9-d92c-56c7-fd21-efd89b92f336}</Project>
       <Name>Unity.RenderPipelines.Core.Runtime</Name>
-    </ProjectReference>
-    <ProjectReference Include="Unity.2D.Sprite.Editor.csproj">
-      <Project>{ed511c2c-bc7e-c0c0-f1f3-f0b41eda3bbf}</Project>
-      <Name>Unity.2D.Sprite.Editor</Name>
-    </ProjectReference>
-    <ProjectReference Include="Unity.RenderPipelines.Universal.Config.Runtime.csproj">
-      <Project>{83a2573b-be4c-9189-d400-76a1a84f4288}</Project>
-      <Name>Unity.RenderPipelines.Universal.Config.Runtime</Name>
-    </ProjectReference>
-    <ProjectReference Include="Unity.RenderPipelines.Core.Editor.csproj">
-      <Project>{d83156b9-994b-5720-7d84-bb005ad52d42}</Project>
-      <Name>Unity.RenderPipelines.Core.Editor</Name>
-    </ProjectReference>
-    <ProjectReference Include="Unity.RenderPipelines.Core.ShaderLibrary.csproj">
-      <Project>{6563e380-1282-91d2-6b4f-205219222b1f}</Project>
-      <Name>Unity.RenderPipelines.Core.ShaderLibrary</Name>
-    </ProjectReference>
-    <ProjectReference Include="Unity.Collections.csproj">
-      <Project>{5d3cd50d-8fce-58d2-0cff-c8eac1f838a0}</Project>
-      <Name>Unity.Collections</Name>
-    </ProjectReference>
-    <ProjectReference Include="PPv2URPConverters.csproj">
-      <Project>{3509c3d7-c6db-dfab-e655-469e9c34145f}</Project>
-      <Name>PPv2URPConverters</Name>
-    </ProjectReference>
-    <ProjectReference Include="Unity.RenderPipelines.Universal.Editor.csproj">
-      <Project>{6276a348-1ea9-55cc-be7f-b1e4ef199c8e}</Project>
-      <Name>Unity.RenderPipelines.Universal.Editor</Name>
-    </ProjectReference>
-    <ProjectReference Include="Unity.RenderPipelines.ShaderGraph.ShaderGraphLibrary.csproj">
-      <Project>{4de018b8-1047-21fe-fdf0-49af1093e973}</Project>
-      <Name>Unity.RenderPipelines.ShaderGraph.ShaderGraphLibrary</Name>
-    </ProjectReference>
-    <ProjectReference Include="Unity.RenderPipelines.Universal.Runtime.csproj">
-      <Project>{693adfcc-82fa-e2a6-9c17-fc2baf5060ce}</Project>
-      <Name>Unity.RenderPipelines.Universal.Runtime</Name>
-    </ProjectReference>
-    <ProjectReference Include="Unity.ShaderGraph.Editor.csproj">
-      <Project>{a2591aa2-df94-5266-19ae-cb4f48033f08}</Project>
-      <Name>Unity.ShaderGraph.Editor</Name>
     </ProjectReference>
     <ProjectReference Include="UnityEditor.UI.csproj">
       <Project>{ed84b24d-ef37-f117-095b-23e3370171ec}</Project>
@@ -950,18 +783,6 @@
     <ProjectReference Include="UnityEngine.UI.csproj">
       <Project>{0f28dbbe-b7ff-6438-ed2c-8b1e369efdfc}</Project>
       <Name>UnityEngine.UI</Name>
-    </ProjectReference>
-    <ProjectReference Include="Unity.RenderPipeline.Universal.ShaderLibrary.csproj">
-      <Project>{c2404be2-3849-8a83-9212-beb0eee47dbb}</Project>
-      <Name>Unity.RenderPipeline.Universal.ShaderLibrary</Name>
-    </ProjectReference>
-    <ProjectReference Include="Unity.RenderPipelines.Universal.Shaders.csproj">
-      <Project>{3e83c816-d0ee-a6ab-ba0b-96bc366debc3}</Project>
-      <Name>Unity.RenderPipelines.Universal.Shaders</Name>
-    </ProjectReference>
-    <ProjectReference Include="Unity.2D.Tilemap.Editor.csproj">
-      <Project>{588a1d6f-164e-a6ae-e565-b89e44f9d487}</Project>
-      <Name>Unity.2D.Tilemap.Editor</Name>
     </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
